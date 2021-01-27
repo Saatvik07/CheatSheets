@@ -11,3 +11,11 @@
   return false;
 }
 ```
+
+```javascript
+ function getISODateForToday(){
+const date = new Date();
+console.log('date= '+ date.toISOString().slice(0,10));
+return date;
+}
+```
